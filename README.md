@@ -23,7 +23,7 @@ Instead of keyword search, we use:
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
