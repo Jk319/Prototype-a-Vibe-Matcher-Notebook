@@ -1,12 +1,12 @@
 # Prototype-a-Vibe-Matcher-Notebook
 
-# 🚀 Vibe Matcher — AI Vibe-Based Recommendation System  
+#  Vibe Matcher — AI Vibe-Based Recommendation System  
 > Mood → Embeddings → Vector Search → Top-3 Matches  
 > *Search with feelings, not keywords.*
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 **Vibe Matcher** is an AI-powered mini recommendation system that returns fashion products based on the *vibe* the user describes.
 
@@ -19,7 +19,7 @@ Instead of keyword search, we use:
 2. **Cosine Similarity**
 3. Ranking top-3 matching products
 
-🎯 **Goal:** Demonstrate how embeddings + vector search power modern recommendation systems.
+ **Goal:** Demonstrate how embeddings + vector search power modern recommendation systems.
 
 ---
 
@@ -27,16 +27,16 @@ Instead of keyword search, we use:
 
 | Feature | Description |
 |---------|-------------|
-| ✅ Converts user "vibe" query into vector embedding |
-| ✅ Calculates cosine similarity for Top-3 product matches |
-| ✅ Includes mock dataset (7 fashion products) |
-| ✅ Can run *offline* using TF-IDF embeddings |
-| ✅ Built-in evaluation + latency measurement |
-| 🚀 Ready for Pinecone or Weaviate integration (production use) |
+|  Converts user "vibe" query into vector embedding |
+|  Calculates cosine similarity for Top-3 product matches |
+|  Includes mock dataset (7 fashion products) |
+|  Can run *offline* using TF-IDF embeddings |
+|  Built-in evaluation + latency measurement |
+|  Ready for Pinecone or Weaviate integration (production use) |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |----------|------------|
@@ -48,7 +48,7 @@ Instead of keyword search, we use:
 
 ---
 
-📦 vibe-matcher
+ vibe-matcher
 
 ├── vibe_matcher_notebook.ipynb 
 
@@ -61,7 +61,7 @@ Instead of keyword search, we use:
 
 
 
-## 🚀 How to Run (Quick Start)
+##  How to Run (Quick Start)
 
 ### Install dependencies
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 vibe_matcher_notebook.ipynb
 
-🔑 Enable OpenAI Embeddings (optional, improves results)
+ Enable OpenAI Embeddings (optional, improves results)
 
 Inside the notebook, add:
 
@@ -93,14 +93,14 @@ client.embeddings.create(
 )
 If API key is not available, the notebook automatically falls back to TF-IDF mode.
 
-📊 Output Results
+ Output Results
 
-✅ Top-3 Recommendations (example)
+ Top-3 Recommendations (example)
 Query	Top Match	Similarity Score
 energetic urban chic	Urban Bomber Jacket	0.612
 cozy weekend at home	Cozy Knit Sweater	0.428
 minimal night-out elegance	Sleek Slip Dress	0.491
 
-✅ Latency Results
+ Latency Results
 Latency graph saved as:
 
